@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* =======================================navbar============================================== */
+.navbar{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: fixed;  */
+    overflow-x: hidden;
+    
+}
+.navbar article{
+    display: flex;
+
+}
+
+.navbar .logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.navbar article div{
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+}
+
+.navbar .navbaroptions div a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar .icons div {
+    color: burlywood;
+    margin: 20px;
+}
+
+.navbar .box div {
+    color: burlywood;
+    width: 100px;
+    height: 20px;
+    padding: 20px;
+    border: 2px solid;
+    border-color: burlywood;
+}
+
+
+
+/* =======================================hero section========================================== */
+
+.hero{
+    height:800px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+     display: flex;  
+    justify-content: center; 
+    /* justify-content: space-evenly; */
+    align-items: center;
+    overflow-x: hidden;
+   
+}
+
+
+.hero article div img{
+    height: 600px;
+    width: 520px;
+   
+}
+
+.hero article div img:hover{
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+
+.hero article div{
+    overflow: hidden;
+}
+
+.hero .heroa1 div{
+    color: rgb(184, 156, 121);
+    font-size: 60px;
+    position: absolute;
+    top: 440px;
+    left: 650px;
+}
+
+.hero .heroa1 div img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.hero .heroa1 div i{
+    font-size: 45px;
+    color: rgb(136, 97, 46);
+}
+.hero .heroa2 div {
+    color: rgb(238, 229, 218);
+} 
+
+.hero .heroa2 div pre i {
+    color: rgb(128, 90, 42);
+}
+
+.hero2{
+
+    height: 400px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+     display: flex;  
+    justify-content: center;  
+    justify-content: space-evenly;
+    overflow-x: hidden;
+}
+.hero2 .hero2a1 div {
+    color:  rgb(155, 109, 54);
+    font-size: x-large;
+    border: 5px solid;
+    border-color: rgb(155, 109, 54);
+    padding-right: 20px;
+    padding-left: 20px; 
+}    
+
+.hero2 .hero2a2 div img{
+    height: 400px;
+    width: 650px;
+    position: absolute;
+    right: 20px;
+    top: 800px;
+    margin-right: 50px;
+}
+
+.hero2 .hero2a2 div img:hover{
+    scale: 0.8;
+    transition: scale 0.6s;
+}
+ 
+.hero2 .hero2a2 div{
+    overflow: hidden;
+}
+
+/* ======================================== menu ======================================= */
+
+.menu {
+    height: 800px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    overflow-x: hidden;
+   
+}
+
+/* .menu article{
+    display: flex;
+} */
+
+.menu .menua1 .box1{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(158, 115, 59);
+    position: absolute;
+    left: 300px;
+    top: 1400px;
+    
+}
+
+.menu .menua1 .image1 img{
+    height: 500px;
+    position: absolute;
+    left: 400px;
+    top: 1450px ;
+
+    
+}
+
+.menu .menua1 .image2 img{
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    top: 1500px;
+}
+
+.menu .menua2 .menua2d1 {
+    font-size: xx-large;
+    color: burlywood;
+    margin-top: 200px;
+    margin-left: 830px; 
+} 
+
+.menu .menua2 .menua2d2 p {
+    font-size: medium;
+    color: rgb(224, 219, 213);
+   align-items: end;
+   margin-top: 50px; 
+   margin-left: 830px;
+   margin-right: 100px;
+} 
+
+
+
+/* ============================================= second menu section================================== */
+
+
+.menu2{
+    height: 800px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 200px;
+    /* justify-content: space-evenly; */
+    overflow-x: hidden;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.menu2 article #image3 img{
+    height: 350px;
+   
+    margin-top: 200px;
+    margin-right: 300px;
+}
+
+.menu2 article #image4 img{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: auto;
+    top: 2610px;
+    right: 160px;
+    background-color: black;
+    background-size: auto;
+
+}
+
+.menu2 .menu2a2{
+    position: absolute;
+    left: 20%;
+}
+ 
+
+.menu2 .menu2d1 {
+    font-size: xx-large;
+    color: rgb(82, 49, 5);
+    margin-left: 200px;
+}
+
+.menu2 .menu2a2 div h1{
+    font-size: x-large;
+    color: rgb(124, 93, 53);
+    margin-top: 100px;
+}
+.menu2 .menu2a2 div h2{
+    font-size: x-large;
+    color: burlywood;
+    margin-top: 100px;
+}
+
+/* .menu2 .menu2a2 div{
+    display: flex;
+} */
+
+.menu2 .menu2a2 div h6{
+    font-size: small;
+    color: bisque;
+}
+
+.menu2 .menu2a2 div h4{
+    font-size: large ;
+    color: coral;
+}
+
+.menu2 .menu2a2{
+    /* display: flex; */
+    justify-content: space-evenly;
+}
+
+.menu2 .menu2a2 #happyhour{
+    display: none;
+}
+
+.menu2 .menu2a2 #check{
+    display: none;
+}
+#check:checked~#happyhour{
+    display: block;
+}
+
+
+.menu2 .menu2a2 #snacks{
+    display: none;
+}
+
+.menu2 .menu2a2 #check2{
+    display: none;
+}
+#check2:checked~#snacks{
+    display: block;
+}
+
+
+
+
+.menu2 .menu2a2 #tacos{
+    display: none;
+}
+.menu2 .menu2a2 #check3{
+    display: none;
+}
+#check3:checked~#tacos{
+    display: block;
+}
+
+
+
+.menu2 .menu2a2 #fries{
+    display: none;
+}
+.menu2 .menu2a2 #check4{
+    display: none;
+}
+#check4:checked~#fries{
+    display: block;
+}
+
+
+.menu2 .menu2a2 #burger{
+    display: none;
+}
+.menu2 .menu2a2 #check5{
+    display: none;
+}
+#check5:checked~#burger{
+    display: block;
+}
+
+
+
+.menu2 .menu2a2 #rice{
+    display: none;
+}
+.menu2 .menu2a2 #check6{
+    display: none;
+}
+#check6:checked~#rice{
+    display: block;
+}
+
+
+
+
+/* =====================================about section========================================= */
+
+
+.about1{
+background-size: 6000px;
+background-color: black;
+display: flex;
+}
+
+.about1 .abouta1 #image5 img{
+    height: 600px;
+    margin-top: 500px;
+    margin-left: 100px;
+}
+
+.about1 .abouta1 #image6 img{
+    height: 550px;
+    position: absolute; 
+    left: 350px;
+    top: 3770px;
+}
+.about1 .abouta2 div{
+    background-color: beige;
+    background-size: 500px;
+    height: 800px;
+    width: 400px;
+}
+
+.about1 .abouta2 div h1{
+    font-size: xx-large;
+    color: burlywood;
+    margin-left: 110px;
+    margin-top: 800px;
+}
+
+
+
+
