@@ -390,19 +390,81 @@ display: flex;
     top: 3770px;
 }
 .about1 .abouta2 div{
-    background-color: beige;
+    background-color: black;
     background-size: 500px;
     height: 800px;
     width: 400px;
+    padding-left: 30px;
 }
 
 .about1 .abouta2 div h1{
     font-size: xx-large;
-    color: burlywood;
-    margin-left: 110px;
+    color: rgb(213, 196, 172);
+    
     margin-top: 800px;
+}
+
+.about1 .abouta2 div h3{
+    color: rgb(100, 77, 49);
+}
+
+
+.about1 .abouta2 div h4{
+    font-size: larger;
+    color: rgb(152, 127, 97);
 }
 
 
 
+/* =========================================brewery section====================================== */
+
+
+.brewery1 {
+    background-size: 5000px;
+    background-color: black;
+}
+
+.brewery1 .brewerya1 div img{
+    height: 550px;
+    margin-left: 20%;
+    
+}
+
+
+.brewery1 .brewerya1 #image7 img{
+    height: 270px;
+    position: absolute;
+    top: 4700px;
+    left: 40%;
+}
+
+.brewery1 .brewerya1 #block img{
+    height: 150px;
+    color: rgb(116, 81, 36);
+    position: absolute;
+    left: 10%;
+    top: 5000px;
+}
+
+.brewery1 .brewerya2 h1{
+    color: rgb(92, 63, 27);
+    font-size: xx-large;
+    margin-left: 32%;
+    margin-top: 10%;
+    
+}
+
+.brewery1 .brewerya2 h3{
+    color: bisque;
+    font-size: large;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.brewery1 .brewerya2 .ablebakre a{
+    height: 20px;
+    border: 2px;
+    border-color: bisque;
+}
 
