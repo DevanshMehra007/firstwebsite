@@ -154,7 +154,7 @@
 /* ======================================== menu ======================================= */
 
 .menu {
-    height: 800px;
+    height: auto;
     background-color: black;
     margin: 0px;
     padding: 0px;
@@ -218,7 +218,7 @@
 
 
 .menu2{
-    height: 800px;
+    height: 2000px;
     background-color: black;
     margin: 0px;
     padding: 0px;
@@ -233,24 +233,40 @@
     
 }
 
-.menu2 article #image3 img{
-    height: 350px;
-   
+
+/* ==================================images============================================= */
+
+.menu2 .menuimages #image3 img{
+    height: 400px;
     margin-top: 200px;
-    margin-right: 300px;
 }
 
-.menu2 article #image4 img{
+.menu2 .menuimages #image4 img{
     height: 300px;
-    width: 400px;
-    position: absolute;
-    left: auto;
-    top: 2610px;
-    right: 160px;
-    background-color: black;
-    background-size: auto;
+    margin-top: -100px;
+    margin-left: 250px;
+}
+
+.menu2 .menuimages #image8 img{
+    height: 400px;
+    margin-top: -50px;
 
 }
+
+.menu2 .menuimages #image9 img{
+    height: 500px;
+    margin-top: -80px;
+}
+.menu2 .menuimages #image10 img{
+    height: 400px;
+}
+
+
+
+
+
+
+/* =========================================================================================== */
 
 .menu2 .menu2a2{
     position: absolute;
@@ -497,49 +513,92 @@ display: flex;
     background-size: 10000px;
     background-color: black;
 }
+.contact .contacta1 .contactus h1{
+    color: burlywood;
+    font-size: 500%;
+    margin-left: 25%; 
+    margin-bottom: 100px; 
+}
 
 .contact .contacta1 {
     padding-left: 10%;
-    padding-top: 400px;
+    padding-top: 100px;
 }
 .contact .contacta2 div iframe{
     margin-left: 35%;
-    margin-top: -400px;
+    margin-top: -500px;
     height: 400px; 
     width: 800px; 
     background-color: black;
    
 }
 
-.contact .contacta1 div{
+.contact .contacta1 #details{
     background-size: 200px;
     background-color: rgb(157, 119, 68);
-    height: 500px;
+    height: 300px;
     width: 400px;
     
 }
 
-.contact .contacta1 div h1{
+
+
+.contact .contacta1 #messagebox{
+    background-size: 200px;
+    background-color: rgb(157, 119, 68);
+    height: 300px;
+    width: 400px;
+    
+}
+
+
+.contact .contacta1 #details h1{
     margin-left: 50px;
     color: rgb(52, 32, 6);
     font-size: xx-large;
 }
 
-.contact .contacta1 div h4{
+.contact .contacta1 #details h4{
     margin-left: 20px;
      color: bisque;
 }
-.contact .contacta1 div h4 i{
+.contact .contacta1 #details h4 i{
     margin-left: 20px;
     color: rgb(53, 38, 18);
 }
 
-.contact .contacta1 div h2 {
+.contact .contacta1 #details h2 {
     color: rgb(87, 61, 25);
     margin-top: 40px;
     margin-left: 10%;
 
 }
+
+
+
+.contact .contacta1 #messagebox h1{
+    margin-left: 50px;
+    color: rgb(52, 32, 6);
+    font-size: xx-large;
+}
+
+.contact .contacta1 #messagebox h4{
+    margin-left: 20px;
+     color: rgb(240, 233, 227);
+}
+.contact .contacta1 #messagebox h4 i{
+    margin-left: 20px;
+    color: rgb(53, 38, 18);
+}
+
+.contact .contacta1 #messagebox h2 {
+    color: rgb(87, 61, 25);
+    /* margin-top: 40px; */
+    margin-left: 10%;
+
+}
+
+
 
 .contact .contacta1 div h2 i{
     color: black;
@@ -549,7 +608,7 @@ display: flex;
    
 }
 
-.contact .contacta1 div #messagebox input{
+.contact .contacta1 div #messagebox form {
     background-color: rgb(157, 119, 68);
     color: black; 
     border-color: black;
@@ -557,4 +616,30 @@ display: flex;
     border-left: 0px;
     border-right: 0px;
 } 
+.contact .contacta1 form #submit {
+    margin-left: 20px;
+    border-width: 10px;
+    border-color: rgb(245, 244, 243);
+}
+
+.contact .contacta3{ padding-top: 50px;
+    background-color: black;
+    height: 200px;
+    
+}
+
+.contact .contacta3 #icons2 div{
+    text-decoration: none;
+    color: rgb(163, 141, 112);
+    padding-left: 30%;
+    
+    
+   
+}
+.contact .contacta3 #logo2 img{
+    height: 150px;
+    position: absolute;
+    left: 150px;
+  
+}
 
