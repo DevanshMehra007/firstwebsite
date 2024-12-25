@@ -16,8 +16,13 @@
     justify-content: space-evenly;
     align-items: center;
     /* position: fixed;  */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     
+}
+
+.navbar .bars div{
+    color: aliceblue;
+    display: none;
 }
 .navbar article{
     display: flex;
@@ -128,6 +133,8 @@
     color:  rgb(155, 109, 54);
     font-size: x-large;
     border: 5px solid;
+    border-left: 0;
+    border-right: 0;
     border-color: rgb(155, 109, 54);
     padding-right: 20px;
     padding-left: 20px; 
@@ -154,7 +161,7 @@
 /* ======================================== menu ======================================= */
 
 .menu {
-    height: auto;
+    height: 800px;
     background-color: black;
     margin: 0px;
     padding: 0px;
@@ -212,6 +219,42 @@
    margin-right: 100px;
 } 
 
+/* ===========================================menu grid============================================ */
+
+
+.pcard article img{
+    width: 300px;
+    align-items: center;
+}
+
+.pcard article{
+    margin: 30px;
+    border-bottom: solid 10px rgb(31, 23, 12);
+}
+#pcard{
+    background-size: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.pcard article div{
+    color: burlywood;
+}
+
+.pcard article div img:hover{
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+.pcard article div{
+    overflow: hidden;
+}
+
+
+
+
 
 
 /* ============================================= second menu section================================== */
@@ -237,19 +280,19 @@
 /* ==================================images============================================= */
 
 .menu2 .menuimages #image3 img{
-    height: 400px;
-    margin-top: 200px;
+    height: 300px;
+    margin-top: 100px;
 }
 
 .menu2 .menuimages #image4 img{
-    height: 300px;
-    margin-top: -100px;
+    height: 250px;
+    /* margin-top: -100px; */
     margin-left: 250px;
 }
 
 .menu2 .menuimages #image8 img{
     height: 400px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 
 }
 
@@ -261,7 +304,13 @@
     height: 400px;
 }
 
-
+.menu2 .menuimages img:hover{
+    scale: 1.2;
+    transition: scale 0.5s;
+}
+.menu2 .menuimages div{
+    overflow: hidden;
+}
 
 
 
@@ -643,3 +692,157 @@ display: flex;
   
 }
 
+
+/* =====================================bottom section============================= */
+
+.bottomsection {
+    background-color: rgb(176, 156, 114);
+    height: 400px;
+    
+    
+    
+}
+
+
+.bottomsection article div img{
+    height: 200px;
+    
+     
+ }
+
+ .bottomsection article{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+ }
+ .bottomsection article div{
+    margin-top: 10%;
+    font-size: x-large;
+    color: rgb(29, 19, 5);
+    
+ }
+
+
+
+ .bottomsection article div i{
+    color: rgb(47, 29, 5);
+ }
+
+ .bottomsection article div h3{
+    font-size: medium;
+    color: rgb(29, 19, 5);
+ }
+ 
+
+
+ /* ========================================================================================================= */
+ /* ========================================================================================================= */
+
+
+
+ @media (max-width:450px){
+
+    /* ===============================================navbar=================================== */
+
+    .navbar .navbaroptions div{
+        display: none;
+    }
+
+    .navbar .icons{
+        display: none;
+    }
+    .navbar .bars div{
+        display: block;
+    }
+
+
+    .navbar .bars #checkn{
+        display: none;
+    }
+    #checkn:checked~ .navbaroptions {
+        display: block;
+        
+    }
+
+    /*===================================================hero========================================== */
+
+
+    .hero .heroa1
+    {
+        margin-top: -50px;
+    }
+    
+     .hero .heroa1 div{
+        color: rgb(184, 156, 121);
+        font-size: 60px;
+        position: absolute;
+        top: 440px;
+        left: 50px;
+    }
+
+
+    .hero article div img{ 
+        height: 500px;
+        width: 400px;
+
+       
+
+    }
+    .heroa2 div pre{
+        margin-left: -50PX;
+    } 
+
+    .hero{
+        overflow: hidden;
+    }
+    .menu{
+        overflow: hidden;
+    }
+    .pcard{
+        overflow: hidden;
+    }
+    .bottomsection{
+        overflow: hidden;
+    }
+
+
+    /* =========================================menu================================================= */
+
+    .menu2 .menu2d1{
+        margin-left: 10px;
+    }
+
+    .menu2 .menu2a2 div h1{
+        font-size: small;
+        margin-left: -20%;
+    }
+    .menu2 .menu2a2 div h2{
+        font-size: small;
+        margin-left: -50px;
+
+    }
+    .menu2 .menu2a2 div h6{
+        font-size: small;
+        margin-left: -50px;
+       
+    }
+
+    .menu2 .menuimages{
+        margin-left: 150%;
+    }
+
+    .menu2 .menuimages div img{
+        height: 100px;
+    }
+
+    .menu2{
+        background-image: url(/hamburger-5630646_1280.jpg); 
+        
+        background-repeat: no-repeat;
+        
+     }
+        
+    
+
+}
