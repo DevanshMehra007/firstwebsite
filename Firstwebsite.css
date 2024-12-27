@@ -114,8 +114,17 @@
     color: rgb(238, 229, 218);
 } 
 
-.hero .heroa2 div pre i {
+.hero .heroa2 div i {
     color: rgb(128, 90, 42);
+}
+
+.hero .heroa2 .address1{
+    margin-top: 250px;
+    margin-left: 20px;
+}
+.hero .heroa2 .timing{
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
 .hero2{
@@ -783,14 +792,31 @@ display: flex;
 
 
     .hero article div img{ 
-        height: 500px;
-        width: 400px;
-
-       
-
+        height: 350px;
+        width: 250px;
+        margin-left: -5px;
     }
-    .heroa2 div pre{
-        margin-left: -50PX;
+
+    .hero .heroa1 .goodtime{
+        font-size: 300%;
+        
+    }
+
+
+    .hero2 .hero2a2 div img{
+        height: 250px;
+        width: 300px;
+        margin-right: -5px;
+        margin-top: -30px;
+    }
+    .heroa2 .address1 h4{
+        margin-left: 10PX;
+        font-size: x-small;
+    } 
+
+    .heroa2 .timing h4{
+        margin-left: 10PX;
+        font-size: x-small;
     } 
 
     .hero{
@@ -804,6 +830,22 @@ display: flex;
     }
     .bottomsection{
         overflow: hidden;
+    }
+
+
+    .menu .menua1 .image1 img{
+        height: 300px;
+        margin-left: -230px;
+    }
+
+    .menu .menua1 .image2 img{
+        height: 200px;
+        margin-left: -150px;
+    }
+    .menu .menua1 .box1{
+        height: 200px;
+        width: 200px;
+        margin-left: -200px;
     }
 
 
@@ -838,11 +880,106 @@ display: flex;
 
     .menu2{
         background-image: url(/hamburger-5630646_1280.jpg); 
-        
         background-repeat: no-repeat;
+        background-size: cover;
         
      }
-        
     
+     /* =============================bottomsection============================ */
+
+
+     .bottomsection{
+        height: 200px;
+     } 
+     .bottomsection article div img{
+        display: none;
+       
+     }
+     .bottomsection article div h3{
+        font-size: x-small;
+
+     }
+
+     .bottomsection article div{
+        font-size: x-small;
+        justify-content: space-between;
+      
+        
+       
+     }
+
+
+     /* =======================================about section================================ */
+
+     .about1 .abouta1 {
+        
+     }
+
+
+     .about1 .abouta1 .aboutus h1{
+        font-size: xx-large;
+        margin-left: 145px;
+     }
+
+     .about1 .abouta1 .biglogo img{
+        height: 100px;
+        margin-left: 150px;
+
+     }
+
+     .about1 .abouta1 #image5 img{
+        height: 300px;
+        margin-left: 20px;
+        margin-top: 40px;
+     }
+
+     .about1 .abouta1 #image6 img{
+        height: 200px;
+        margin-left: -250px;
+        margin-top: -350px;
+     }
+
+     .about1 .abouta2 div{
+        margin-left: -400px;
+        margin-top: 800px;
+        padding-left: 2px;
+     }
+
+     .about1 .abouta2 div h4 {
+        font-size: 100%;
+        
+     }
+
+     /* =========================================== the brewery=============================== */
+
+     .brewery1 .brewerya1 div img{
+        height: 200px;
+     }
+
+     .brewery1 .brewerya1 #image7 img{
+        height: 100px;
+        margin-top: -70px;
+     }
+
+     .brewery1 .brewerya1 #block img{
+        height: 50px;
+        margin-top: -270px;
+     }
+
+   
+
+     .brewery1 .brewerya2 h1{
+        font-size: xx-large;
+        margin-left: 110px;
+     }
+
+     .brewery1 .brewerya2 h3{
+        font-size: small;
+     }
+
+    
+      
+     
+     
 
 }
