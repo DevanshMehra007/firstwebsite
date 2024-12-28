@@ -802,12 +802,18 @@ display: flex;
         
     }
 
+    .hero2 .hero2a1 div{
+        font-size: small;
+        margin-left: -155px;
+        
+    }
+
 
     .hero2 .hero2a2 div img{
         height: 250px;
         width: 300px;
         margin-right: -5px;
-        margin-top: -30px;
+        /* margin-top: -50px; */
     }
     .heroa2 .address1 h4{
         margin-left: 10PX;
@@ -833,6 +839,9 @@ display: flex;
     }
 
 
+    /* ====================================hero menu======================================= */
+
+
     .menu .menua1 .image1 img{
         height: 300px;
         margin-left: -230px;
@@ -847,6 +856,32 @@ display: flex;
         width: 200px;
         margin-left: -200px;
     }
+
+
+    .menu .menua2 .menua2d1{
+        position: absolute;
+        left: -800px;
+        top: 1600px;
+        font-size: x-large;
+    }
+    .menu .menua2 .menua2d2 p{
+        position: absolute;
+        left: -800px;
+        top: 1800px;
+        font-size: small;
+    }  
+ /* ========================================menu grid=================================== */
+
+ .pcard article img{
+    width: 120px;
+ }
+ 
+ .pcard article{
+   margin-left: 5px;
+}
+
+
+
 
 
     /* =========================================menu================================================= */
@@ -977,6 +1012,51 @@ display: flex;
         font-size: small;
      }
 
+
+
+
+/* =================================================contact============================== */
+.contact .contacta1{
+    margin-left: -20px;
+}
+
+.contact .contacta1 .contactus h1{
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+.contact .contacta1 #details h1{
+    font-size: x-large;
+}
+.contact .contacta1 #details h4{
+    font-size: small;
+}
+.contact .contacta1 #messagebox h2{
+    font-size: large;
+}
+.contact .contacta1 #messagebox form{
+    font-size: small;
+    margin-top: -20px;
+}
+.contact .contacta2 div iframe{
+    height: 350px;
+    width: 450px;
+    margin-top: 20px;
+    margin-left: 0px;
+    
+}
+
+.contact .contacta3 #logo2 img{
+    height: 100px;
+    margin-top: 30px;
+    margin-left: -150px;
+}
+
+.contact .contacta3 div{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: x-small;
+}
     
       
      
